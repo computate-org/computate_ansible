@@ -1,3 +1,6 @@
 [submodule "roles/computate.computate_supertuxkart"]
 	path = roles/computate.computate_supertuxkart
 	url = https://github.com/computate-org/computate_supertuxkart.git
+[submodule "roles/computate.computate_bzflag"]
+	path = roles/computate.computate_bzflag
+	url = https://github.com/computate-org/computate_bzflag.git
