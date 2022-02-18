@@ -1,4 +1,5 @@
 - name: "install supertuxkart locally"
+  hosts: all
   roles:
     - computate.computate_supertuxkart
       
