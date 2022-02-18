@@ -1,0 +1,6 @@
+- name: "install bzflag locally"
+  hosts: all
+  roles:
+    - computate.computate_bzflag
+      
+
