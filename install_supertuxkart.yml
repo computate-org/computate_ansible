@@ -1,0 +1,5 @@
+- name: "install {{ APP_NAME }} locally"
+  roles:
+    - computate.computate_supertuxkart
+      
+
