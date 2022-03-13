@@ -1,4 +1,4 @@
 - name: "install mari0 locally"
-  hosts: none
+  hosts: all
   roles:
     - computate.computate_mari0
