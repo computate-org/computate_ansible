@@ -4,3 +4,6 @@
 [submodule "roles/computate.computate_bzflag"]
 	path = roles/computate.computate_bzflag
 	url = https://github.com/computate-org/computate_bzflag.git
+[submodule "roles/computate.computate_powertools"]
+	path = roles/computate.computate_powertools
+	url = https://github.com/computate-org/computate_powertools.git
