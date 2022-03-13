@@ -7,3 +7,6 @@
 [submodule "roles/computate.computate_powertools"]
 	path = roles/computate.computate_powertools
 	url = https://github.com/computate-org/computate_powertools.git
+[submodule "roles/computate.computate_mari0"]
+	path = roles/computate.computate_mari0
+	url = https://github.com/computate-org/computate_mari0.git
