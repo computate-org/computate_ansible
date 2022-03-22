@@ -1,0 +1,22 @@
+---
+- name: Install, configure and run Sensu agent
+  hosts: agents
+  become: true
+
+  tasks:
+    - name: Install agent
+      include_role:
+        name: sensu.sensu_go.agent
+      vars:
+        version: 6.1.0
+
+        # mTLS stuff
+        cert_file: certs/backend.pem
+        key_file: certs/backend-key.pem
+        trusted_ca_file: certs/ca.pem
+
+        agent_config:
+          name: "{{ inventory_hostname }}"
+          backend-url:
+            - wss://{{ hostvars['backend']['ansible_host'] }}:8081
+

@@ -1,0 +1,28 @@
+- name: Install, configure and run Sensu backend
+  hosts: backends
+  become: true
+
+  tasks:
+    - name: Setup secret environment variables
+      ansible.builtin.template:
+        src: secrets.j2
+        dest: /etc/sysconfig/sensu-backend
+      vars:
+        secrets:
+          MY_SECRET: value-is-here
+
+    - name: Install backend
+      include_role:
+        name: sensu.sensu_go.backend
+      vars:
+        version: 6.1.0
+
+        cluster_admin_username: >-
+          {{ lookup('ansible.builtin.env', 'SENSU_USER') }}
+        cluster_admin_password: >-
+          {{ lookup('ansible.builtin.env', 'SENSU_PASSWORD') }}
+        # mTLS stuff
+        agent_auth_cert_file: certs/backend.pem
+        agent_auth_key_file: certs/backend-key.pem
+        agent_auth_trusted_ca_file: certs/ca.pem
+
