@@ -3,13 +3,13 @@
   become: true
 
   tasks:
-    - name: Setup secret environment variables
-      ansible.builtin.template:
-        src: secrets.j2
-        dest: /etc/sysconfig/sensu-backend
-      vars:
-        secrets:
-          MY_SECRET: value-is-here
+          #    - name: Setup secret environment variables
+          #      ansible.builtin.template:
+          #        src: secrets.j2
+          #        dest: /etc/sysconfig/sensu-backend
+          #      vars:
+          #        secrets:
+          #          MY_SECRET: value-is-here
 
     - name: Install backend
       include_role:
