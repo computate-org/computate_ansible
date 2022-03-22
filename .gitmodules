@@ -10,3 +10,6 @@
 [submodule "roles/computate.computate_mari0"]
 	path = roles/computate.computate_mari0
 	url = https://github.com/computate-org/computate_mari0.git
+[submodule "roles/computate.computate_libmodplug"]
+	path = roles/computate.computate_libmodplug
+	url = https://github.com/computate-org/computate_libmodplug.git
