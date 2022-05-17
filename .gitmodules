@@ -19,3 +19,9 @@
 [submodule "roles/computate.computate_sqlite"]
 	path = roles/computate.computate_sqlite
 	url = https://github.com/computate-org/computate_sqlite.git
+[submodule "roles/computate.computate_fox"]
+	path = roles/computate.computate_fox
+	url = https://github.com/computate-org/computate_fox.git
+[submodule "roles/computate.computate_sumo"]
+	path = roles/computate.computate_sumo
+	url = https://github.com/computate-org/computate_sumo.git
