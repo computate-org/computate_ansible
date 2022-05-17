@@ -16,19 +16,20 @@ cd ~/.ansible/roles/computate.computate_ansible
 git submodule update --init --recursive
 ```
 
-# Run the individual playbooks to install the applications locally. 
-
-```bash
-ansible-playbook install_bzflag.yml
-ansible-playbook install_mari0.yml
-ansible-playbook install_supertuxkart.yml
-```
-
 # Add new child roles. 
 
 You can add new child roles like this: 
 
 ```bash
 git submodule add https://github.com/computate-org/computate_sqlite.git roles/computate.computate_sqlite
+```
+
+# Run the individual playbooks to install the applications locally. 
+
+```bash
+ansible-playbook -i localhost, -c local install_bzflag.yml
+ansible-playbook -i localhost, -c local install_mari0.yml
+ansible-playbook -i localhost, -c local install_supertuxkart.yml
+ansible-playbook -i localhost, -c local install_sumo.yml
 ```
 

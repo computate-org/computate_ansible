@@ -1,0 +1,4 @@
+- name: "install sumo locally"
+  hosts: all
+  roles:
+    - computate.computate_sumo

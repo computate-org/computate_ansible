@@ -1,0 +1,4 @@
+- name: "install sqlite locally"
+  hosts: all
+  roles:
+    - computate.computate_sqlite
