@@ -13,3 +13,9 @@
 [submodule "roles/computate.computate_libmodplug"]
 	path = roles/computate.computate_libmodplug
 	url = https://github.com/computate-org/computate_libmodplug.git
+[submodule "roles/computate.computate_sqlit"]
+	path = roles/computate.computate_sqlit
+	url = https://github.com/computate-org/computate_sqlite.git
+[submodule "roles/computate.computate_sqlite"]
+	path = roles/computate.computate_sqlite
+	url = https://github.com/computate-org/computate_sqlite.git
