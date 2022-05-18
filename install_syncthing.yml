@@ -1,0 +1,4 @@
+- name: "install syncthing locally"
+  hosts: all
+  roles:
+    - computate.computate_syncthing

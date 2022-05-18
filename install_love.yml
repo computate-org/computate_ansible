@@ -1,0 +1,4 @@
+- name: "install love locally"
+  hosts: all
+  roles:
+    - computate.computate_love

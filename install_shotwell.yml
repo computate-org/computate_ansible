@@ -1,0 +1,4 @@
+- name: "install shotwell locally"
+  hosts: all
+  roles:
+    - computate.computate_shotwell

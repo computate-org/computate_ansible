@@ -1,0 +1,4 @@
+- name: "install physfs locally"
+  hosts: all
+  roles:
+    - computate.computate_physfs

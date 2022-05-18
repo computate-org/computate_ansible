@@ -27,9 +27,12 @@ git submodule add https://github.com/computate-org/computate_sqlite.git roles/co
 # Run the individual playbooks to install the applications locally. 
 
 ```bash
+ansible-playbook -i localhost, -c local install_gorilla.yml
+ansible-playbook -i localhost, -c local install_sumo.yml
+ansible-playbook -i localhost, -c local install_shotwell.yml
+ansible-playbook -i localhost, -c local install_syncthing.yml
 ansible-playbook -i localhost, -c local install_bzflag.yml
 ansible-playbook -i localhost, -c local install_mari0.yml
 ansible-playbook -i localhost, -c local install_supertuxkart.yml
-ansible-playbook -i localhost, -c local install_sumo.yml
 ```
 

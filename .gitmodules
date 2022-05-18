@@ -25,3 +25,21 @@
 [submodule "roles/computate.computate_sumo"]
 	path = roles/computate.computate_sumo
 	url = https://github.com/computate-org/computate_sumo.git
+[submodule "roles/computate.computate_shotwell"]
+	path = roles/computate.computate_shotwell
+	url = https://github.com/computate-org/computate_shotwell.git
+[submodule "roles/computate.computate_syncthing"]
+	path = roles/computate.computate_syncthing
+	url = https://github.com/computate-org/computate_syncthing.git
+[submodule "roles/computate.computate_gorilla"]
+	path = roles/computate.computate_gorilla
+	url = https://github.com/computate-org/computate_gorilla.git
+[submodule "roles/computate.computate_itcl"]
+	path = roles/computate.computate_itcl
+	url = https://github.com/computate-org/computate_itcl.git
+[submodule "roles/computate.computate_love"]
+	path = roles/computate.computate_love
+	url = https://github.com/computate-org/computate_love.git
+[submodule "roles/computate.computate_physfs"]
+	path = roles/computate.computate_physfs
+	url = https://github.com/computate-org/computate_physfs.git
