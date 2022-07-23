@@ -43,3 +43,12 @@
 [submodule "roles/computate.computate_physfs"]
 	path = roles/computate.computate_physfs
 	url = https://github.com/computate-org/computate_physfs.git
+[submodule "roles/computate.computate_gtest"]
+	path = roles/computate.computate_gtest
+	url = https://github.com/computate-org/computate_gtest.git
+[submodule "roles/computate.computate_eigen"]
+	path = roles/computate.computate_eigen
+	url = https://github.com/computate-org/computate_eigen.git
+[submodule "roles/computate.computate_gdal"]
+	path = roles/computate.computate_gdal
+	url = https://github.com/computate-org/computate_gdal.git
