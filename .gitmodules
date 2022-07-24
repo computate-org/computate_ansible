@@ -55,3 +55,6 @@
 [submodule "roles/computate.computate_luajit"]
 	path = roles/computate.computate_luajit
 	url = https://github.com/computate-org/computate_luajit.git
+[submodule "roles/computate.computate_libsquish"]
+	path = roles/computate.computate_libsquish
+	url = https://github.com/computate-org/computate_libsquish.git
