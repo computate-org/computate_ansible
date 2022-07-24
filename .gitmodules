@@ -52,3 +52,6 @@
 [submodule "roles/computate.computate_gdal"]
 	path = roles/computate.computate_gdal
 	url = https://github.com/computate-org/computate_gdal.git
+[submodule "roles/computate.computate_luajit"]
+	path = roles/computate.computate_luajit
+	url = https://github.com/computate-org/computate_luajit.git
